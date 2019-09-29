@@ -1,0 +1,127 @@
+.logo{
+  width: 50px;
+  height: 50px;
+}
+.csBadge{
+  float:right;
+  margin:-10px;
+  padding: 8px 4px 8px 4px;
+  font-size:14px;
+}
+.navbar-brand{
+  margin-left: 60px;
+}
+.notif{
+  font-size:28px;
+}
+.topMargin{
+  margin-top: 60px;
+}
+.user-badge{
+  font-size: 16px;
+  padding: 13px 10px 13px 10px;
+  margin-left: 10px;
+  background: #B3E77F;
+  color: white
+}
+.card{
+  margin: 50px 10px 50px 10px;
+  border: 1px none;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transform: translateY(-4px);
+  z-index: 1;
+}
+.card:hover .mainTitle{
+  color:#9EDDD3;
+}
+.navbar{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+  z-index: 2;
+}
+.cs-btn{
+  width: 100%;
+  background: white;
+  padding: 4px 10px 4px 10px;
+  border: 2px solid #9EDDD3;
+  color: #9EDDD3;
+}
+.csColor{
+  color: rgb(175, 175, 175);
+}
+.cs-btn:hover{
+  background: #9EDDD3;
+  color: white;
+}
+.page-header{
+  margin: 150px 30px 30px 30px;
+}
+.jumbotron{
+  background: rgb(249, 251, 251);
+  color:#40BCB4;
+}
+.jumboButton{
+  background: rgb(249, 251, 251);
+  color:#40BCB4;
+  padding: 7px 20px 7px 20px;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.jumboButton:hover{
+  background: #40BCB4;
+  color:rgb(249, 251, 251);
+}
+.mainTitle{
+  font-weight: bold;
+}
+.sidenav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.2), 1px 0 2px 0 rgba(0,0,0,0.19);
+  background: white;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #686868;
+  width: 100%;
+  display: block;
+}
+.ic-active{
+  color: #3EBCB3;
+}
+.icon-active{
+  color: #3EBCB3;
+  border-right: 3px solid #3EBCB3;
+}
+.ic-col{
+  color: #A6A6A6;
+}
+.cop-col{
+  color: #81858E;
+}
+.main {
+  margin-left: 60px;
+  padding: 0px 10px;
+}
+.fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-facebook:hover{
+  transform:translateY(-4px);
+  cursor: pointer;
+}
+footer
+{
+  margin-top:100px;
+}
+.f-size
+{
+  font-size:35px;
+}
