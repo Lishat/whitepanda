@@ -17,16 +17,17 @@ function App() {
       <div className="main">
         <Navbar className="bg-white fixed-top">
           <div className="container">
-            <NavbarBrand href="./"><img src="logo512.png" alt="whitepanda"/></NavbarBrand>
-            
-          </div>
-          <span class="float-right">
-              <span class="badge badge-danger rounded-circle csBadge">299</span>
-              <i class="fa fa-bell-o notif"></i>
-          </span>
-          <span class="float-right">
-              <span class="badge badge-warning rounded-circle ml-4 user-badge">AB</span>
-          </span>   
+                <NavbarBrand href="./"><img src="logo512.png" alt="whitepanda"/></NavbarBrand>
+                <span className="marginLeft">
+                  <span className="navbar-text">
+                    <span class="badge badge-danger rounded-circle csBadge">299</span>
+                    <i class="fa fa-bell-o notif"></i>
+                  </span>
+                  <span className="navbar-text">
+                    <span class="badge badge-warning rounded-circle ml-4 user-badge">AB</span>
+                  </span>
+                </span>
+              </div>   
         </Navbar>
         <div className="container">
           <div className="row">
